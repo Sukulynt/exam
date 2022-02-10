@@ -1,0 +1,205 @@
+/* NAVBAR */
+
+.navb {
+    border-bottom: solid 1px gray;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    
+}
+
+.icons {
+    width: 30vh;
+}
+
+
+.ic {
+    width: 20px;
+}
+
+/* NAVBAR */
+
+/* MAIN */
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.text1 {
+    width: 50%;
+    padding: 20px;
+}
+
+.image2 {
+    text-align: end;
+    width: 70%;
+}
+
+.image {
+    width: 70%;
+}
+
+.text{
+    width: 50%;
+    padding: 20px;
+}
+
+
+
+.line2 {
+    border-top: solid rgb(211, 211, 211) 1px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.d33 {
+    border-top: solid rgb(211, 211, 211) 1px;
+    border-bottom: solid rgb(211, 211, 211) 1px;
+
+}
+
+/* MAIN */
+
+/* GALLERY */
+
+.line4g {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.line24g {
+    display: flex;
+}
+
+.g1, .g2, .g4  {
+    width: 28%;
+}
+
+.g3 {
+    width: 15%;
+}
+
+
+/* GALLERY */
+
+/* FEATURES */
+
+.line4f {
+    
+    text-align: center;
+}
+
+.iconl1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+    width: 1300px;
+}
+
+.line4f1 {
+    text-align: center;
+    width: 33%;
+    height: 50%;
+}
+.d32 {
+    border-bottom: solid 1px rgb(211, 211, 211) ;
+}
+
+.line24f1 {
+    text-align: center;
+    width: 33%;
+    height: 50%;
+}
+.elic {
+    width: 50px;
+}
+
+.right {
+    border-right: solid 1px rgb(211, 211, 211);
+}
+
+.top {
+    border-top: solid 1px rgb(211, 211, 211);
+}
+
+/* FEATURES */
+
+/* WRITE TO US */
+
+.allinfo {
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.d1 {
+    width: 100%;
+}
+
+.radios {
+    display: flex;
+   
+}
+
+.radios1 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.message {
+    height: 200px;
+}
+
+.btnn {
+    text-align: end;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon2 {
+    width: 30px;
+    border-radius: 50px;
+    border: solid rgb(211, 211, 211) 2px;
+}
+
+
+@media (max-width:600px) {
+    .line1 {
+        flex-direction: column-reverse;
+    }
+
+    .line2 {
+        flex-direction: column-reverse;
+    }
+
+    .image2, .image {
+        text-align: center;
+        width: 100%;
+    }
+
+    .line4f {
+        flex-direction: column;
+    }
+
+}
