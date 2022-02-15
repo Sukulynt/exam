@@ -102,9 +102,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-  
-    width: 1300px;
+    padding: 0px;
+    width: 100%;
 }
 
 .line4f1 {
@@ -119,7 +118,7 @@
 .line24f1 {
     text-align: center;
     width: 33%;
-    height: 50%;
+
 }
 .elic {
     width: 50px;
@@ -143,7 +142,7 @@
 
 .info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .d1 {
@@ -184,13 +183,98 @@
 }
 
 
+
+
+@media (max-width:850px) {
+    .g3, .g4 {
+        display: none;
+    }
+    .g1, .g2 {
+        width: 50%;
+    }
+    .line4f1, .line24f1 {
+        padding: 10px;
+        width: 100%;
+        border-right: none;
+    }
+
+    .line4f1 {
+        border-right: 1px solid rgb(211, 211, 211);
+    }
+
+    .this {
+        border-bottom: solid 1px rgb(211, 211, 211);
+    }
+
+    .line24f1 {
+       
+        border-right: none;
+    }
+
+    .iconl1 {
+        flex-direction: column;
+    }
+
+    .iconl2 {
+        display: flex;
+    }
+    .list {
+        visibility: hidden;
+    }
+
+}
+
 @media (max-width:600px) {
     .line1 {
         flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .iconl1 {
+        flex-direction: column;
+    }
+
+    .g2, .g3, .g4 {
+        display: none;
+    }
+    .g1 {
+        width: 100%;
+    }
+
+    .radios {
+        flex-direction: column;
+    }
+
+    .iconl2 {
+        flex-direction: column;
+    }
+
+    .line4f1, .line24f1 {
+        padding: 10px;
+        width: 100%;
+        border-right: none;
+    }
+    
+    .line24f1 {
+        border-bottom: solid 1px rgb(211, 211, 211);
+        border-right: none;
     }
 
     .line2 {
         flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .text1, .text {
+        width: 100%;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .list {
+        visibility: hidden;
     }
 
     .image2, .image {
